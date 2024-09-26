@@ -1,3 +1,18 @@
-psutil 
-Pillow 
-requests
+psutil                      # Required for system information (e.g., CPU, RAM, battery)
+screen-brightness-control   # For controlling screen brightness
+
+# optional for ubuntu
+ctypes-callable
+comtypes
+pycaw
+
+# Required for geolocation and time zone functionalities
+geopy
+timezonefinder
+pytz
+
+tkcalendar                  # For the calendar widget in Tkinter
+PyAutoGUI                   # For automating GUI tasks like screenshots
+
+Pillow                      # For image handling (screenshots, etc.)
+requests                    # For API requests (e.g., weather API)
